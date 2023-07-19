@@ -3,14 +3,29 @@ function App() {
 		<>
 			<div class="bg-gray-300 py-[50px] grid grid-flow-col justify-evenly items-center w-full gap-[1rem]">
 				{/* Card 1 */}
-				<div class="bg-white rounded-[8px] w-[249px]">
-					<div class="pl-[26px] pr-[20px] pt-[28px] pb-[24px]">
+				<div class="bg-white rounded-[8px] w-[300px]">
+					<div class="p-[25px]">
 						<div class="grid grid-flow-row content-start">
-							{/* Icon background */}
-							<div class="w-[130px] h-[127px] grid bg-[url('./assets/icon-bg-teardrop.svg')] bg-contain bg-no-repeat items-center content-center justify-center justify-items-center">
+							<div class="w-[130px] h-[127px] grid items-center justify-items-center">
+								{/* Icon background */}
+								<svg
+									class="absolute"
+									width="130"
+									height="127"
+									viewBox="0 0 130 127"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+										d="M64.8855 0C108.161 27.1474 129.771 52.4757 129.771 75.9299C129.771 111.125 100.707 127 64.8855 127C29.0636 127 0 111.125 0 75.9299C0 52.4757 21.6378 27.1749 64.8855 0Z"
+										fill="#DDF2F3"
+									/>
+								</svg>
 								{/* Icon */}
 								<svg
-									class="grid"
+									class="absolute"
 									xmlns="http://www.w3.org/2000/svg"
 									width="47"
 									height="70"
@@ -27,10 +42,10 @@ function App() {
 							</div>
 							{/* Heading */}
 							<h3 class="font-days-one text-[#2a3273] text-[20px] leading-[57px]">
-								Long- term supply
+								Long- term Supply
 							</h3>
 							{/* Content */}
-							<p class="font-catamaran text-[18px] leading-[24px] text-[#333]">
+							<p class="font-catamaran text-[18px] leading-[24px] text-[#333] mb-[30px]">
 								Long-term supply assignments provide a level of security without
 								being tied in to a school indefinitely.
 							</p>
@@ -42,25 +57,20 @@ function App() {
 								<span class="font-catamaran font-[900] text-[18px] text-[#812c97] leading-[36px] pr-[8.5px] w-fit">
 									Find out more
 								</span>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="25"
-									height="25"
-									viewBox="0 0 25 25"
-									fill="none"
-								>
-									<circle
-										cx="12.5"
-										cy="12.5"
-										r="12.5"
-										fill="#812C97"
-										fill-opacity="0.25"
-									/>
-									<path
-										d="M6.25 13.6719C5.81853 13.6719 5.46875 13.3221 5.46875 12.8906C5.46875 12.4592 5.81853 12.1094 6.25 12.1094V13.6719ZM19.5312 12.1094C19.9627 12.1094 20.3125 12.4592 20.3125 12.8906C20.3125 13.3221 19.9627 13.6719 19.5312 13.6719V12.1094ZM18.9914 12.3259C19.3033 12.0277 19.7979 12.0389 20.096 12.3508C20.3941 12.6627 20.383 13.1572 20.0711 13.4554L18.9914 12.3259ZM14.7586 18.5335C14.4467 18.8316 13.9521 18.8205 13.654 18.5086C13.3559 18.1967 13.367 17.7021 13.6789 17.404L14.7586 18.5335ZM20.0711 12.3259C20.383 12.624 20.3941 13.1186 20.096 13.4305C19.7979 13.7424 19.3033 13.7535 18.9914 13.4554L20.0711 12.3259ZM13.6789 8.37724C13.367 8.0791 13.3559 7.58457 13.654 7.27267C13.9521 6.96077 14.4467 6.94962 14.7586 7.24776L13.6789 8.37724ZM6.25 12.1094H19.5312V13.6719H6.25V12.1094ZM20.0711 13.4554L14.7586 18.5335L13.6789 17.404L18.9914 12.3259L20.0711 13.4554ZM18.9914 13.4554L13.6789 8.37724L14.7586 7.24776L20.0711 12.3259L18.9914 13.4554Z"
-										fill="white"
-									/>
-								</svg>
+								<div class="rounded-full bg-[#812C97] bg-opacity-[0.25]">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="25"
+										height="25"
+										viewBox="0 0 25 25"
+										fill="none"
+									>
+										<path
+											d="M6.25 13.6719C5.81853 13.6719 5.46875 13.3221 5.46875 12.8906C5.46875 12.4592 5.81853 12.1094 6.25 12.1094V13.6719ZM19.5312 12.1094C19.9627 12.1094 20.3125 12.4592 20.3125 12.8906C20.3125 13.3221 19.9627 13.6719 19.5312 13.6719V12.1094ZM18.9914 12.3259C19.3033 12.0277 19.7979 12.0389 20.096 12.3508C20.3941 12.6627 20.383 13.1572 20.0711 13.4554L18.9914 12.3259ZM14.7586 18.5335C14.4467 18.8316 13.9521 18.8205 13.654 18.5086C13.3559 18.1967 13.367 17.7021 13.6789 17.404L14.7586 18.5335ZM20.0711 12.3259C20.383 12.624 20.3941 13.1186 20.096 13.4305C19.7979 13.7424 19.3033 13.7535 18.9914 13.4554L20.0711 12.3259ZM13.6789 8.37724C13.367 8.0791 13.3559 7.58457 13.654 7.27267C13.9521 6.96077 14.4467 6.94962 14.7586 7.24776L13.6789 8.37724ZM6.25 12.1094H19.5312V13.6719H6.25V12.1094ZM20.0711 13.4554L14.7586 18.5335L13.6789 17.404L18.9914 12.3259L20.0711 13.4554ZM18.9914 13.4554L13.6789 8.37724L14.7586 7.24776L20.0711 12.3259L18.9914 13.4554Z"
+											fill="white"
+										/>
+									</svg>
+								</div>
 							</a>
 						</div>
 					</div>
@@ -68,10 +78,10 @@ function App() {
 
 				{/* Card 2 */}
 				<div class="bg-white w-fit">
-					<div class="pl-[26px] pr-[60px] pt-[28px] pb-[24px]">
+					<div class="p-[25px] pr-[60px]">
 						<div class="grid grid-flow-row content-start">
 							{/* Icon background */}
-							<div class="w-[75px] h-[75px] grid bg-[url('./assets/icon-bg-circle-purple.svg')] bg-contain bg-no-repeat items-center content-center justify-center justify-items-center">
+							<div class="w-[75px] h-[75px] grid items-center content-center justify-center justify-items-center rounded-full bg-[#812C97] bg-opacity-[0.15]">
 								{/* Icon */}
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -103,10 +113,10 @@ function App() {
 				{/* Card 3 */}
 				{/* <div class="bg-[linear-gradient(30deg,_#812C97_0%,_#1EA5AB_100%)] w-fit"> */}
 				<div class="bg-[linear-gradient(30deg,_#72419B_0%,_#4970A2_100%)] w-fit">
-					<div class="pl-[26px] pr-[60px] pt-[28px] pb-[24px]">
+					<div class="p-[25px] pr-[60px]">
 						<div class="grid grid-flow-row content-start">
 							{/* Icon background */}
-							<div class="w-[75px] h-[75px] grid bg-[url('./assets/icon-bg-circle-white.svg')] bg-contain bg-no-repeat items-center content-center justify-center justify-items-center">
+							<div class="w-[75px] h-[75px] grid items-center content-center justify-center justify-items-center rounded-full bg-white bg-opacity-[0.15]">
 								{/* Icon */}
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
