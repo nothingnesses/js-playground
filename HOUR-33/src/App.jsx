@@ -3,7 +3,7 @@ function App() {
 		<>
 			<div class="bg-gray-300 p-[50px] grid grid-flow-col justify-evenly justify-items-center items-center w-full gap-[1rem]">
 				{/* Card 1 */}
-				<div class="bg-white rounded-[8px]">
+				<section class="bg-white rounded-[8px]">
 					<div class="p-[25px]">
 						<div class="grid grid-flow-row">
 							<div class="w-fit h-[127px] grid items-center justify-items-center mb-[20px]">
@@ -73,10 +73,10 @@ function App() {
 							</a>
 						</div>
 					</div>
-				</div>
+				</section>
 
 				{/* Card 2 */}
-				<div class="bg-white w-full">
+				<section class="bg-white w-full">
 					<div class="p-[25px]">
 						<div class="grid grid-flow-row content-start w-[90%]">
 							{/* Icon background */}
@@ -107,10 +107,10 @@ function App() {
 							</p>
 						</div>
 					</div>
-				</div>
+				</section>
 
 				{/* Card 3 */}
-				<div class="bg-[linear-gradient(30deg,_#72419B_0%,_#4970A2_100%)] w-full">
+				<section class="bg-[linear-gradient(30deg,_#72419B_0%,_#4970A2_100%)] w-full">
 					<div class="p-[25px]">
 						<div class="grid grid-flow-row content-start w-[90%]">
 							{/* Icon background */}
@@ -141,7 +141,7 @@ function App() {
 							</p>
 						</div>
 					</div>
-				</div>
+				</section>
 			</div>
 		</>
 	);
