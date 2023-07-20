@@ -6,7 +6,7 @@ function App() {
 				<div class="bg-white rounded-[8px]">
 					<div class="p-[25px]">
 						<div class="grid grid-flow-row">
-							<div class="w-fit h-[127px] grid items-center justify-items-center">
+							<div class="w-fit h-[127px] grid items-center justify-items-center mb-[20px]">
 								{/* Icon background */}
 								<svg
 									width="130"
@@ -40,7 +40,7 @@ function App() {
 								</svg>
 							</div>
 							{/* Heading */}
-							<h3 class="font-days-one text-[#2a3273] text-[20px] leading-[57px]">
+							<h3 class="font-days-one text-[#2a3273] text-[20px] mb-[5px]">
 								Long- term Supply
 							</h3>
 							{/* Content */}
@@ -80,7 +80,7 @@ function App() {
 					<div class="p-[25px]">
 						<div class="grid grid-flow-row content-start w-[90%]">
 							{/* Icon background */}
-							<div class="w-[75px] h-[75px] grid items-center content-center justify-center justify-items-center rounded-full bg-[#812C97] bg-opacity-[0.15]">
+							<div class="w-[75px] h-[75px] grid items-center content-center justify-center justify-items-center rounded-full bg-[#812C97] bg-opacity-[0.15] mb-[20px]">
 								{/* Icon */}
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +96,7 @@ function App() {
 								</svg>
 							</div>
 							{/* Heading */}
-							<h3 class="font-days-one text-[#2a3273] text-[20px] leading-[57px]">
+							<h3 class="font-days-one text-[#2a3273] text-[20px] mb-[5px]">
 								The best possible service
 							</h3>
 							{/* Content */}
@@ -114,7 +114,7 @@ function App() {
 					<div class="p-[25px]">
 						<div class="grid grid-flow-row content-start w-[90%]">
 							{/* Icon background */}
-							<div class="w-[75px] h-[75px] grid items-center content-center justify-center justify-items-center rounded-full bg-white bg-opacity-[0.15]">
+							<div class="w-[75px] h-[75px] grid items-center content-center justify-center justify-items-center rounded-full bg-white bg-opacity-[0.15] mb-[20px]">
 								{/* Icon */}
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +130,7 @@ function App() {
 								</svg>
 							</div>
 							{/* Heading */}
-							<h3 class="font-days-one text-white text-[20px] leading-[57px]">
+							<h3 class="font-days-one text-white text-[20px] mb-[5px]">
 								The best possible service
 							</h3>
 							{/* Content */}
