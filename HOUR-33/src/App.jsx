@@ -1,15 +1,14 @@
 function App() {
 	return (
 		<>
-			<div class="bg-gray-300 py-[50px] grid grid-flow-col justify-evenly items-center w-full gap-[1rem]">
+			<div class="bg-gray-300 p-[50px] grid grid-flow-col justify-evenly justify-items-center items-center w-full gap-[1rem]">
 				{/* Card 1 */}
-				<div class="bg-white rounded-[8px] w-[300px]">
+				<div class="bg-white rounded-[8px]">
 					<div class="p-[25px]">
-						<div class="grid grid-flow-row content-start">
-							<div class="w-[130px] h-[127px] grid items-center justify-items-center">
+						<div class="grid grid-flow-row">
+							<div class="w-fit h-[127px] grid items-center justify-items-center">
 								{/* Icon background */}
 								<svg
-									class="absolute"
 									width="130"
 									height="127"
 									viewBox="0 0 130 127"
@@ -52,7 +51,7 @@ function App() {
 							{/* Link */}
 							<a
 								href="https://example.org/"
-								class="grid grid-flow-col items-center justify-start"
+								class="grid grid-flow-col items-center justify-start w-fit"
 							>
 								<span class="font-catamaran font-[900] text-[18px] text-[#812c97] leading-[36px] pr-[8.5px] w-fit">
 									Find out more
@@ -77,9 +76,9 @@ function App() {
 				</div>
 
 				{/* Card 2 */}
-				<div class="bg-white w-fit">
-					<div class="p-[25px] pr-[60px]">
-						<div class="grid grid-flow-row content-start">
+				<div class="bg-white w-full">
+					<div class="p-[25px]">
+						<div class="grid grid-flow-row content-start w-[90%]">
 							{/* Icon background */}
 							<div class="w-[75px] h-[75px] grid items-center content-center justify-center justify-items-center rounded-full bg-[#812C97] bg-opacity-[0.15]">
 								{/* Icon */}
@@ -101,7 +100,7 @@ function App() {
 								The best possible service
 							</h3>
 							{/* Content */}
-							<p class="font-catamaran text-[18px] leading-[24px] text-[#545454] w-[363px]">
+							<p class="font-catamaran text-[18px] leading-[24px] text-[#545454]">
 								We will always act in the best interest of our clients,
 								candidates and each other. We stand by our commitments, we keep
 								our promises and treat everyone with respect.
@@ -111,10 +110,9 @@ function App() {
 				</div>
 
 				{/* Card 3 */}
-				{/* <div class="bg-[linear-gradient(30deg,_#812C97_0%,_#1EA5AB_100%)] w-fit"> */}
-				<div class="bg-[linear-gradient(30deg,_#72419B_0%,_#4970A2_100%)] w-fit">
-					<div class="p-[25px] pr-[60px]">
-						<div class="grid grid-flow-row content-start">
+				<div class="bg-[linear-gradient(30deg,_#72419B_0%,_#4970A2_100%)] w-full">
+					<div class="p-[25px]">
+						<div class="grid grid-flow-row content-start w-[90%]">
 							{/* Icon background */}
 							<div class="w-[75px] h-[75px] grid items-center content-center justify-center justify-items-center rounded-full bg-white bg-opacity-[0.15]">
 								{/* Icon */}
@@ -136,7 +134,7 @@ function App() {
 								The best possible service
 							</h3>
 							{/* Content */}
-							<p class="font-catamaran text-[18px] leading-[24px] text-white w-[363px]">
+							<p class="font-catamaran text-[18px] leading-[24px] text-white">
 								We will always act in the best interest of our clients,
 								candidates and each other. We stand by our commitments, we keep
 								our promises and treat everyone with respect.
