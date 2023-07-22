@@ -6,13 +6,15 @@ function App() {
 				<article class="bg-white rounded-[8px] overflow-hidden">
 					{/* White Section */}
 					<div class="ml-[30px] mr-[30px] mt-[30px] grid grid-flow-row">
-						{/* Open Quotes */}
+						{/* Open Quote */}
 						<svg
 							width="35"
 							height="28"
 							viewBox="0 0 35 28"
 							fill="none"
 							class="mb-[20px]"
+							aria-label="Open quote"
+							role="img"
 						>
 							<path
 								fill-rule="evenodd"
@@ -22,7 +24,7 @@ function App() {
 							/>
 						</svg>
 						{/* Text */}
-						<div class="mb-[max(0px,_calc(-10%_+_80px))]">
+						<blockquote class="mb-[max(0px,_calc(-10%_+_80px))]">
 							<p class="mb-[1rem]">
 								My mom would always say give credit where it is due. Honestly,
 								this agency deserves an award!
@@ -33,10 +35,17 @@ function App() {
 								to say that I successfully obtained my visa and BRP, and have
 								settled in quite nicely to my new role…
 							</p>
-						</div>
-						{/* Close Quotes */}
+						</blockquote>
+						{/* Close Quote */}
 						<div class="grid items-end justify-items-end h-fit">
-							<svg width="35" height="28" viewBox="0 0 35 28" fill="none">
+							<svg
+								width="35"
+								height="28"
+								viewBox="0 0 35 28"
+								fill="none"
+								aria-label="Close quote"
+								role="img"
+							>
 								<path
 									fill-rule="evenodd"
 									clip-rule="evenodd"
@@ -47,7 +56,7 @@ function App() {
 						</div>
 					</div>
 					{/* Blue Section */}
-					<div class="">
+					<footer>
 						{/* Decoration */}
 						<svg
 							width="407.44095"
@@ -55,6 +64,7 @@ function App() {
 							viewBox="0 0 407.44095 53.000001"
 							preserveAspectRatio="xMinYMin meet"
 							class="w-full h-full"
+							aria-hidden="true"
 						>
 							<path
 								fill-rule="evenodd"
@@ -67,7 +77,7 @@ function App() {
 						<div class="bg-[#031A89] relative min-h-[100px]">
 							<div class="absolute grid grid-flow-col justify-between items-end pl-[30px] pr-[30px] pb-[40px] bottom-0 w-full">
 								{/* Profile */}
-								<div class="grid grid-flow-row items-center justify-items-center w-fit">
+								<figure class="grid grid-flow-row items-center justify-items-center w-fit">
 									{/* Image */}
 									<img
 										src="/src/assets/stock-photo-cheerful-multiracial-professional-business-people-laughing-together-standing-in-row-near-wall-1477336913.png"
@@ -75,19 +85,17 @@ function App() {
 										class="rounded-full h-full w-auto mb-[20px]"
 									/>
 									{/* Name */}
-									<div class="font-days-one text-[20px] font-[400] text-white">
+									<figcaption class="font-days-one text-[20px] font-[400] text-white">
 										Rashida
-									</div>
-								</div>
+									</figcaption>
+								</figure>
 								{/* Link */}
 								<a
 									href="https://example.org/"
 									class="grid grid-flow-col items-center justify-items-center w-fit h-fit"
+									aria-label="Read on"
 								>
-									<span
-										class="font-catamaran font-[900] text-[18px] text-white mr-[8.5px] w-fit"
-										aria-label="Read on"
-									>
+									<span class="font-catamaran font-[900] text-[18px] text-white mr-[8.5px] w-fit">
 										Read on
 									</span>
 									<div class="rounded-full bg-white bg-opacity-[0.25]">
@@ -97,7 +105,7 @@ function App() {
 											viewBox="0 0 25 25"
 											fill="none"
 											role="img"
-											aria-label="Arrow Icon"
+											aria-label="Arrow icon"
 										>
 											<path
 												d="M6.25 13.6719C5.81853 13.6719 5.46875 13.3221 5.46875 12.8906C5.46875 12.4592 5.81853 12.1094 6.25 12.1094V13.6719ZM19.5312 12.1094C19.9627 12.1094 20.3125 12.4592 20.3125 12.8906C20.3125 13.3221 19.9627 13.6719 19.5312 13.6719V12.1094ZM18.9914 12.3259C19.3033 12.0277 19.7979 12.0389 20.096 12.3508C20.3941 12.6627 20.383 13.1572 20.0711 13.4554L18.9914 12.3259ZM14.7586 18.5335C14.4467 18.8316 13.9521 18.8205 13.654 18.5086C13.3559 18.1967 13.367 17.7021 13.6789 17.404L14.7586 18.5335ZM20.0711 12.3259C20.383 12.624 20.3941 13.1186 20.096 13.4305C19.7979 13.7424 19.3033 13.7535 18.9914 13.4554L20.0711 12.3259ZM13.6789 8.37724C13.367 8.0791 13.3559 7.58457 13.654 7.27267C13.9521 6.96077 14.4467 6.94962 14.7586 7.24776L13.6789 8.37724ZM6.25 12.1094H19.5312V13.6719H6.25V12.1094ZM20.0711 13.4554L14.7586 18.5335L13.6789 17.404L18.9914 12.3259L20.0711 13.4554ZM18.9914 13.4554L13.6789 8.37724L14.7586 7.24776L20.0711 12.3259L18.9914 13.4554Z"
@@ -108,7 +116,7 @@ function App() {
 								</a>
 							</div>
 						</div>
-					</div>
+					</footer>
 				</article>
 			</div>
 		</>
