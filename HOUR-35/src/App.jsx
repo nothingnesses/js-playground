@@ -24,12 +24,12 @@ function App() {
 							/>
 						</svg>
 						{/* Text */}
-						<blockquote class="mb-[max(0px,_calc(-10%_+_80px))]">
-							<p class="mb-[1rem]">
+						<blockquote class="mb-[max(0px,_calc(-10%_+_80px))] [&>p]:mb-[1rem]">
+							<p>
 								My mom would always say give credit where it is due. Honestly,
 								this agency deserves an award!
 							</p>
-							<p class="mb-[1rem]">
+							<p>
 								My consultant, Ed Hyland has been informative, friendly,
 								supportive and knowledgeable from the beginning. I am now proud
 								to say that I successfully obtained my visa and BRP, and have
