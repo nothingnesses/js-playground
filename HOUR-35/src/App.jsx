@@ -59,18 +59,48 @@ function App() {
 					<footer>
 						{/* Decoration */}
 						<svg
-							width="407.44095"
-							height="53"
-							viewBox="0 0 407.44095 53.000001"
+							width="407.44141"
+							height="53.003906"
+							viewBox="0 0 407.44141 53.003906"
+							fill="none"
+							version="1.1"
+							id="svg153"
+							sodipodi:docname="decoration.svg"
+							inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+							xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+							xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+							xmlns="http://www.w3.org/2000/svg"
+							xmlns:svg="http://www.w3.org/2000/svg"
 							preserveAspectRatio="xMinYMin meet"
-							class="w-full h-full"
+							class="w-full h-full mb-[-0.1%]"
 							aria-hidden="true"
 						>
+							<defs id="defs157" />
+							<sodipodi:namedview
+								id="namedview155"
+								pagecolor="#505050"
+								bordercolor="#eeeeee"
+								borderopacity="1"
+								inkscape:showpageshadow="0"
+								inkscape:pageopacity="0"
+								inkscape:pagecheckerboard="0"
+								inkscape:deskcolor="#505050"
+								showgrid="false"
+								inkscape:zoom="2.8284271"
+								inkscape:cx="216.905"
+								inkscape:cy="37.123106"
+								inkscape:window-width="1904"
+								inkscape:window-height="999"
+								inkscape:window-x="-7"
+								inkscape:window-y="0"
+								inkscape:window-maximized="0"
+								inkscape:current-layer="svg153"
+							/>
 							<path
 								fill-rule="evenodd"
-								clip-rule="evenodd"
-								d="M 407.44094,53.000019 0,0 v 149.17212 c 0,4.418 3.581729,8 7.999999,8 H 399.44094 c 4.419,0 8,-3.582 8,-8 z"
 								fill="#031a89"
+								d="M 0,0 407.44141,53.003906 H 0.00390625 Z"
+								id="path855"
 							/>
 						</svg>
 						{/* Content */}
