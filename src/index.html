@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="/dist/output.css" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;900&family=Days+One&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="bg-gray-100 p-[5rem]">
+			<!-- Card 1 -->
+			<section class="bg-white w-full p-[2.5rem] rounded-lg shadow-lg">
+				<header class="mb-[1rem]">
+					<h1 class="text-[#1DA5AB] font-days-one text-[1.25rem] font-normal">
+						Related pages
+					</h1>
+				</header>
+				<style>
+					.related-pages > li::before {
+						content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 5.19733064 6.26307209'%3E%3Cpath fill='%2395CDFF' fill-rule='evenodd' d='M4.75192 2.29955 1.5547.168067C1.09517-.138286.4743-.014112.16795.445417.05844.609684 0 .802692 0 1.000117v4.262966c0 .552285.44772 1 1 1 .19742 0 .39043-.058438.5547-.16795L4.75192 3.96365c.45953-.306352.58371-.927222.27735-1.38675-.07323-.109852-.16749-.204115-.27735-.27735Z'/%3E%3C/svg%3E");
+					}
+				</style>
+				<ul
+					class="text-[#031A89] related-pages font-catamaran text-[1.125rem] font-normal list-inside [&>li]:mb-[1rem] [&>li]:before:w-[0.375rem] [&>li]:before:inline-block [&>li]:before:mr-[0.625rem] [&>li]:before:align-text-top [&>li]:before:transition-all"
+				>
+					<li><a href="https://example.org/">Find a job</a></li>
+					<li><a href="https://example.org/">Teaching in the UK</a></li>
+					<li><a href="https://example.org/">Upload your CV</a></li>
+					<li><a href="https://example.org/">About us</a></li>
+					<li><a href="https://example.org/">Support hub</a></li>
+					<li><a href="https://example.org/">FAQs</a></li>
+				</ul>
+			</section>
+		</div>
+	</body>
+</html>
